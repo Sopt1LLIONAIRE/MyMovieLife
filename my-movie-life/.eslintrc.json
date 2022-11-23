@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    // var 키워드 사용 금지
+    "no-var": "error",
+    // async 함수 안에 반드시 await 키워드 사용하기
+    "require-await": "error",
+    // 강한 비교 사용하기 ===
+    "eqeqeq": "error",
+    // props 타입 검사 무시
+    "react/prop-types": 0
+  }
+}
