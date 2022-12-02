@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+
+import Header from '../components/Common/Header';
+import Content from '../components/Common/Content';
 
 export default function MainPage() {
   return (
-    <div>MainPage</div>
-  )
+    <>
+      <Header />
+      <Content />
+    </>
+  );
 }
