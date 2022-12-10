@@ -4,8 +4,8 @@ import reset from 'styled-reset';
 const GlobalStyles = createGlobalStyle`
     ${reset}
     @font-face {
-        font-family: Pretendard;
-        src: url('../fonts/Pretendard-Regular.woff');
+        font-family: Bitstream Vera Serif Bold;
+        src: url('https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf');
     }
     body {
         font-family: 'Pretendard';
